@@ -1,17 +1,17 @@
 class Usuario {
   nome;
-  CPF;
+  #CPF;
   email;
-  senha;
+  #senha;
   endereco;
   tipoSanguineo;
 
   criaUsuario(nome, CPF, email, senha, endereco, tipoSanguineo) {
     if (this.validaEmail(email) && this.validaCPF(CPF)) {
       this.nome = nome;
-      this.CPF = CPF;
+      this.#CPF = CPF;
       this.email = email;
-      this.senha = senha;
+      this.#senha = senha;
       this.endereco = endereco;
       this.tipoSanguineo = tipoSanguineo;
 
@@ -34,7 +34,7 @@ class Usuario {
   }
 
   login(email, senha) {
-    if (email === this.email && senha === this.senha) {
+    if (email === this.email && senha === this.#senha) {
       return "Login realizado com sucesso";
     } else {
       throw new Error("Autenticação falhou");
