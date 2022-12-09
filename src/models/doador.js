@@ -1,7 +1,7 @@
-const User = require("./usuario");
+const Usuario = require("./usuario");
 const moment = require("moment");
 
-class Doador extends User {
+class Doador extends Usuario {
   ultimaDoacao = "";
   proximaDoacao = "";
 

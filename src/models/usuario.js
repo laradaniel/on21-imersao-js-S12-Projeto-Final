@@ -1,8 +1,6 @@
-const Endereco = require("./endereco");
-
-class User {
+class Usuario {
   nome;
-  #CPF;
+  CPF;
   email;
   senha;
   endereco;
@@ -11,7 +9,7 @@ class User {
   criaUsuario(nome, CPF, email, senha, endereco, tipoSanguineo) {
     if (this.validaEmail(email) && this.validaCPF(CPF)) {
       this.nome = nome;
-      this.#CPF = CPF;
+      this.CPF = CPF;
       this.email = email;
       this.senha = senha;
       this.endereco = endereco;
@@ -44,4 +42,4 @@ class User {
   }
 }
 
-module.exports = User;
+module.exports = Usuario;

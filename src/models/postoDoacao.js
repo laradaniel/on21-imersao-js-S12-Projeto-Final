@@ -5,13 +5,13 @@ class PostoDoacao {
   endereco;
   banco;
   pessoasCadastradas = [];
-  static all = [];
+  static postosDoacao = [];
 
   constructor(nome, endereco, banco) {
     this.nome = nome;
     this.endereco = endereco;
     this.banco = banco;
-    PostoDoacao.all.push(this);
+    PostoDoacao.postosDoacao.push(this);
   }
 
   cadastrarDoador(doador) {
@@ -25,7 +25,7 @@ class PostoDoacao {
   }
 
   static buscaPostoDoacaoPorRegiao(regiao) {
-    const PostosPorRegiao = PostoDoacao.all.filter(
+    const PostosPorRegiao = PostoDoacao.postosDoacao.filter(
       (postos) => postos.endereco.regiao === regiao
     );
 
