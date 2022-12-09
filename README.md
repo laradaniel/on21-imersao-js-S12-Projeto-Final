@@ -4,33 +4,40 @@
     <img src="https://i.pinimg.com/originals/b1/67/e2/b167e2bf540ad37e8b53e42b2c2e37a3.gif" width="500" height="350"/>
 </div>
 
-### Problematica
+### Problemática
 <p>
 Segundo o Ministério da Saúde (OMS), o Brasil conta com 1.8% da população como doadores de sangue, enquanto o mínimo considerado adequado é de 3.5%. Em 2021, período de restabelecimento e cuidados aos efeitos da pandemia, os bancos de sangue conseguiram se reestabelecer devido ao lançamento de campanhas de incentivo à doação. Entretanto, esse aumento de doações de forma sazonal ainda não é considerado ideal. Em 2022, hemocentros de diversos estados promoveram o Dia Nacional do Doador de Sangue, em homenagem as pessoas que têm esse hábito de forma regular. A data escolhida foi 25 de novembro devido à proximidades com feriados e datas comemorativas, período marcado pela baixa nos estoques.
 </p>
 
+
 ### O Projeto
 <p>
-Criado com o objetivo de informar a situação dos bancos de sangue e incentivar a doação regular, o projeto DOE SANGUE, DOE VIDA é um sistema que cadastra doadores aos bancos de sangue e notifica sua próxima doação.
+Criado com o objetivo de informar a situação dos bancos de sangue e incentivar a doação regular, o projeto *DOE SANGUE, DOE VIDA* é um sistema que cadastra doadores aos bancos de sangue e notifica sua próxima doação.
 </p>
 
+
 ### Tecnologias Utilizadas
-> node, jest
+<div>
+    <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" width="70"/>
+    <img src="https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg" width="70"/>
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/jest-js-icon.png" width="70"/>
+</div>
+
 
 ### Funcionalidades implementadas
 - Usuário
-    [x] Criação de usuário
-    [x] Validação de Email e CPF
-    [x] Login
+    - [x] Criação de usuário
+    - [x] Validação de Email e CPF
+    - [x] Login
 
 - Posto de Doação
-    [x] Cadastrar novo posto de doação
-    [x] Vincular doador ao banco de sangue
-    [x] Listar Postos de doação por região
+    - [x] Cadastrar novo posto de doação
+    - [x] Vincular doador ao banco de sangue
+    - [x] Listar Postos de doação por região
 
 - Doador
-    [x] Realizar doação
-    [x] Atualizar data da próxima doação
+    - [x] Realizar doação
+    - [x] Atualizar data da próxima doação
    
 
 ### Como instalar
@@ -68,11 +75,16 @@ Criado com o objetivo de informar a situação dos bancos de sangue e incentivar
 ```
 
 ### Implementações Futuras
-[ ] Filtrar postos de doação por status crítico do banco de sangue, considerando tipo sanguineo do usuário;
-[ ] Criação de novo usuário 'receptor', aqueles que buscam doação direta por tipo sanguíneo específico ou não;
+- [ ] Criação do front-end;
+- [ ] Criação da API;
+- [ ] Filtrar postos de doação por status crítico do banco de sangue, considerando tipo sanguineo do usuário;
+- [ ] Criação de novo usuário 'receptor', aqueles que buscam doação direta por tipo sanguíneo específico ou não.
 
-
-
-
-
+<br>
+<div align="center">
+    <strong>
+      :heart:  Com uma única doação você pode salvar até 4 vidas!<br>
+        Seja solidário com esse gesto de cuidado e carinho. :heart:
+    </strong>
+</div>
 
