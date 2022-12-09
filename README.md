@@ -24,7 +24,7 @@ Criado com o objetivo de informar a situação dos bancos de sangue e incentivar
 </div>
 
 
-### Funcionalidades implementadas
+### Funcionalidades Implementadas
 - Usuário
     - [x] Criação de usuário
     - [x] Validação de Email e CPF
@@ -40,7 +40,7 @@ Criado com o objetivo de informar a situação dos bancos de sangue e incentivar
     - [x] Atualizar data da próxima doação
    
 
-### Como instalar
+### Como Instalar
 
 1. Fork esse repositório
 
@@ -65,7 +65,7 @@ Criado com o objetivo de informar a situação dos bancos de sangue e incentivar
 5. Para testes de instancias e métodos, vá até a pasta *models* e digite no terminal
 
 ```sh
-  $ node run index.js
+  $ node index.js
 ```
 
 6. Para rodar os testes unitários e verificar porcentagens de cobertura
