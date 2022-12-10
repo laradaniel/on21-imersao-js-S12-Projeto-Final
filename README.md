@@ -12,7 +12,7 @@ Segundo o Ministério da Saúde (OMS), o Brasil conta com 1.8% da população co
 
 ### O Projeto
 <p>
-Criado com o objetivo de informar a situação dos bancos de sangue e incentivar a doação regular, o projeto *DOE SANGUE, DOE VIDA* é um sistema que cadastra doadores aos bancos de sangue e notifica sua próxima doação.
+Criado com o objetivo de informar a situação dos bancos de sangue e incentivar a doação regular, o projeto DOE SANGUE, DOE VIDA é um sistema que cadastra doadores aos bancos de sangue e notifica sua próxima doação.
 </p>
 
 
